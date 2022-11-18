@@ -4,7 +4,7 @@ body{
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -80,7 +80,7 @@ a{
 button{
     color: #F9FAF8;
     text-align: center;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: bold;
     margin-top: 8px;
@@ -89,4 +89,55 @@ button{
     padding: 10px;
     border: none;
     border-radius: 8px;
+}
+
+.info-header{
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 20px;
+    padding: 32px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 32px;
+    flex: 1;
+}
+
+.card-img{
+    width: 300px;
+    height:auto;
+    border-radius: 10px;
+}
+
+.card-p{
+    width: 300px;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote-text{
+    font-family:'Roboto', sans-serif ;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-b{
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: end;
 }
