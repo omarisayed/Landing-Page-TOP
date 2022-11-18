@@ -16,7 +16,7 @@ body{
 .navbar{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
 }
@@ -24,14 +24,14 @@ body{
 .logo{
     font-size: 24px;
     color: #F9FAF8;
-    padding: 30px 0px 30px 70px;
+    padding: 30px 0px 30px 310px;
 }
 
 .right-links{
     display: flex;
     flex-direction: row;
     gap: 16px;
-    padding: 30px 70px 30px 0px;
+    padding: 30px 310px 30px 0px;
 }
 
 ul{
@@ -51,7 +51,7 @@ a{
     background-color: #1F2937;
     align-items: center;
     gap: 70px;
-    padding: 90px ;
+    padding: 90px;
     justify-content: center;
 }
 
@@ -73,7 +73,7 @@ a{
 }
 
 .hero-img{
-    width: 500px;
+    width: 720px;
     height: auto;
 }
 
