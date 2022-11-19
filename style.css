@@ -82,13 +82,17 @@ button{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    background-color: #3882F6;
+    border-radius: 8px;
+
+}
+
+.hero-button{   
     font-weight: bold;
     margin-top: 8px;
-    background-color: #3882F6;
     width: 110px;
-    padding: 10px;
+    padding: 10px;  
     border: none;
-    border-radius: 8px;
 }
 
 .info-header{
@@ -107,6 +111,7 @@ button{
     justify-content: center; 
     gap: 32px;
     flex: 1;
+    margin-bottom: 100px;
 }
 
 .card-img{
@@ -117,6 +122,7 @@ button{
 
 .card-p{
     width: 300px;
+    font-size: 18px;
 }
 
 .quote-section{
@@ -141,3 +147,35 @@ button{
     font-size: 20px;
     text-align: end;
 }
+
+.cta{
+    padding: 100px;
+}
+
+.blue-container{
+    display: flex;
+    background-color: #3882F6;
+    padding:70px 30px;
+    margin: 0 200px;
+    border-radius: 10px;
+    justify-content: baseline;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.box-text-one{
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.box-text-two{
+    color: #F9FAF8;
+    margin: 0;
+    font-size: 18px;
+}
+
+.bottom-button{
+    border: 3px solid #F9FAF8;
+    padding: 10px 20px;
+}
+
