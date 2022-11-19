@@ -23,6 +23,7 @@ body{
 
 .logo{
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
     padding: 30px 0px 30px 310px;
 }
@@ -30,6 +31,7 @@ body{
 .right-links{
     display: flex;
     flex-direction: row;
+    font-size: 18px;
     gap: 16px;
     padding: 30px 310px 30px 0px;
 }
@@ -179,3 +181,13 @@ button{
     padding: 10px 20px;
 }
 
+.footer{
+    background-color: #1F2937;
+    padding: 5px;
+}
+
+.footer-text{
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+}
